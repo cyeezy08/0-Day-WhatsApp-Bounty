@@ -1,0 +1,35 @@
+=== libs.so ANALYSIS ===
+
+=== STRINGS ===
+[superpack] 0010046d u8"_superpack_archive_start"
+[superpack] 00100486 u8"_superpack_archive_end"
+[superpack] 0010049d u8"_superpack_archive_size"
+[gif] 0010cbd1 "libgifimage.so"
+[webp] 0010cc17 "libstatic-webp.so"
+[webp] 0010cdc5 "libwebpencoder-native.so"
+[gif] 0010cf2e "libwa_sandboxed_gifimage.so"
+[buffer] 0010d1cb "libprofilo_multi_buffer_logger.so"
+[buffer] 0010d226 "libprofilo_mmapbuf_buffer.so"
+[buffer] 0010d254 "libprofilo_mmapbuf_buffer_jni.so"
+[http] .comment::00000013 u8"Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+[frame] .shstrtab::00000078 u8".eh_frame_hdr"
+[frame] .shstrtab::00000086 u8".eh_frame"
+[frame] .strtab::000000b1 u8"__FRAME_END__"
+[key] .strtab::000000d3 u8"__emutls_unregister_key"
+[superpack] .strtab::00000125 u8"_superpack_archive_start"
+[superpack] .strtab::0000013e u8"_superpack_archive_end"
+[superpack] .strtab::00000155 u8"_superpack_archive_size"
+Total: 18
+
+=== FUNCTIONS ===
+00104614 __on_dlclose
+00104624 __emutls_unregister_key
+0010462c __on_dlclose_late
+00104634 __atexit_handler_wrapper
+00104648 atexit
+00104670 FUN_00104670
+00104690 __cxa_finalize
+001046a0 __cxa_atexit
+00d83000 __cxa_finalize
+00d83008 __cxa_atexit
+Total functions: 10
