@@ -1,5 +1,5 @@
 # WhatsApp Android v2.26.28.71 — Security Audit & Exploit Suite
-## Bounty Target: `com.whatsapp` (Analyzed via `syfe.apk` / `WhatsApp.apk`)
+## Bounty Target: `com.whatsapp` (Analyzed via `WhatsApp.apk`)
 
 This repository contains the findings, decompiled Smali source files, custom extraction tools, exploit scripts, and media fuzzers developed during a comprehensive security audit of WhatsApp's Android Client (version v2.26.28.71). 
 
