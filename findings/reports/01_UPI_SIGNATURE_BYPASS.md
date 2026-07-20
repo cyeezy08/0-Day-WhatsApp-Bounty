@@ -1,5 +1,5 @@
 # Finding 1: UPI Payment Signature Not Verified
-## Severity: MEDIUM | Type: Cryptographic Bypass
+## Severity: MEDIUM | CVSS: 5.3 (AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N) | Type: Cryptographic Bypass
 
 ### Summary
 
@@ -45,9 +45,10 @@ The payment confirmation screen will show:
 
 ### Files
 
-- `/home/kali/2stage/findings/native_analysis/C7m.smali` — Parameter parser (sign extraction at line 896)
-- `/home/kali/2stage/findings/native_analysis/C77.smali` — Validation (sign passthrough at line 618)
-- `/home/kali/2stage/findings/native_analysis/upi_receiver_smali/IndiaUpiPayIntentReceiverActivity.smali` — Entry point
+- `C7m.smali` — UPI parameter parser (sign extraction at line 896)
+- `C77.smali` — UPI validation (sign passthrough at line 618)
+- `IndiaUpiPayIntentReceiverActivity.smali` — Deep link entry point
+- `AndroidManifest.xml` — `IndiaUpiPayIntentReceiverActivity` declaration
 
 ### Verifier
 

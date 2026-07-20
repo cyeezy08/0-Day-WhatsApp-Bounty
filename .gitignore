@@ -23,3 +23,17 @@ exploit/build/
 exploit/gen/
 exploit/exploit-signed.apk
 exploit/exploit-signed.apk.idsig
+
+# Ghidra project binaries
+*.rep/
+*.gbf
+*.prp
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

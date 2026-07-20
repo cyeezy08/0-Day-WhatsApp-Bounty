@@ -1,5 +1,5 @@
 # Finding 5: Native Library Attack Surface (libs.so)
-## Severity: UNKNOWN | Type: Potential RCE via Media Parsing
+## Severity: UNKNOWN (POTENTIAL CRITICAL) | CVSS: N/A — Requires further analysis | Type: Potential RCE via Media Parsing
 
 ### Summary
 

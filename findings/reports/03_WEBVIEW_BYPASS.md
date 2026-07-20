@@ -1,5 +1,5 @@
 # Finding 3: WebView Subdomain Allowlist Bypass
-## Severity: MEDIUM | Type: Allowlist Bypass / Potential XSS
+## Severity: MEDIUM | CVSS: 6.1 (AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N) | Type: Allowlist Bypass / Potential XSS
 
 ### Summary
 

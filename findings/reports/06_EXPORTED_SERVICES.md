@@ -1,5 +1,5 @@
 # Finding 6: Exported Services Without Permission
-## Severity: LOW | Type: Defense-in-Depth Gap
+## Severity: LOW | CVSS: 3.3 (AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N) | Type: Defense-in-Depth Gap
 
 ### Summary
 

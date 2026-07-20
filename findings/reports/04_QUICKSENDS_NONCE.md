@@ -1,5 +1,5 @@
 # Finding 4: QuickSends Nonce Replay Risk
-## Severity: LOW-MEDIUM | Type: Server-Dependent Crypto Issue
+## Severity: LOW-MEDIUM | CVSS: 3.7 (AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N) | Type: Server-Dependent Crypto Issue
 
 ### Summary
 
